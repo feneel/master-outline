@@ -1,0 +1,594 @@
+[
+    {
+        "section_id": "1",
+        "section_title": "TITLE PAGE"
+    },
+    {
+        "section_id": "2",
+        "section_title": "SYNOPSIS"
+    },
+    {
+        "section_id": "3",
+        "section_title": "TABLE OF CONTENTS"
+    },
+    {
+        "section_id": "4",
+        "section_title": "LIST OF ABBREVIATIONS AND DEFINITION OF TERMS"
+    },
+    {
+        "section_id": "5",
+        "section_title": "ETHICS"
+    },
+    {
+        "section_id": "5.1",
+        "section_title": "Independent Ethics Committee Approval"
+    },
+    {
+        "section_id": "5.2",
+        "section_title": "Ethical Conduct of the Study"
+    },
+    {
+        "section_id": "5.3",
+        "section_title": "Subject Information and Consent"
+    },
+    {
+        "section_id": "6",
+        "section_title": "INVESTIGATORS AND STUDY ADMINISTRATIVE STRUCTURE"
+    },
+    {
+        "section_id": "7",
+        "section_title": "INTRODUCTION"
+    },
+    {
+        "section_id": "8",
+        "section_title": "STUDY OBJECTIVES AND ENDPOINTS"
+    },
+    {
+        "section_id": "8.1",
+        "section_title": "Study Objectives"
+    },
+    {
+        "section_id": "8.2",
+        "section_title": "Study Endpoints"
+    },
+    {
+        "section_id": "8.2.1",
+        "section_title": "Pharmacokinetic Assessments"
+    },
+    {
+        "section_id": "8.2.2",
+        "section_title": "Safety Assessments"
+    },
+    {
+        "section_id": "9",
+        "section_title": "INVESTIGATIONAL PLAN"
+    },
+    {
+        "section_id": "9.1",
+        "section_title": "Overall Study Design and Plan"
+    },
+    {
+        "section_id": "9.1.1",
+        "section_title": "Study Design"
+    },
+    {
+        "section_id": "9.1.1.1",
+        "section_title": "Cohorts"
+    },
+    {
+        "section_id": "9.1.1.2",
+        "section_title": "Study Period and Evaluation Period"
+    },
+    {
+        "section_id": "9.1.2",
+        "section_title": "Study Population and Planned Number of Subjects"
+    },
+    {
+        "section_id": "9.1.3",
+        "section_title": "Level and Method of Blinding"
+    },
+    {
+        "section_id": "9.1.4",
+        "section_title": "Type of Comparator"
+    },
+    {
+        "section_id": "9.1.5",
+        "section_title": "Method of Allocating Subjects to Study"
+    },
+    {
+        "section_id": "9.2",
+        "section_title": "Discussion of Study Design, Including Choice of Control Group(s)"
+    },
+    {
+        "section_id": "9.3",
+        "section_title": "Selection of Study Population"
+    },
+    {
+        "section_id": "9.3.1",
+        "section_title": "Inclusion Criteria"
+    },
+    {
+        "section_id": "9.3.2",
+        "section_title": "Exclusion Criteria"
+    },
+    {
+        "section_id": "9.3.3",
+        "section_title": "Withdrawal of Subjects from Participation in the Study or Assessment"
+    },
+    {
+        "section_id": "9.3.3.1",
+        "section_title": "Discontinuation Criteria of Subjects"
+    },
+    {
+        "section_id": "9.3.3.2",
+        "section_title": "Termination or Suspension of the Study"
+    },
+    {
+        "section_id": "9.3.4",
+        "section_title": "Specific Subject Restrictions"
+    },
+    {
+        "section_id": "9.3.4.1",
+        "section_title": "Prohibited Matters Before and During the Study Period"
+    },
+    {
+        "section_id": "9.3.4.2",
+        "section_title": "Subject Management"
+    },
+    {
+        "section_id": "9.4",
+        "section_title": "Study Methodology"
+    },
+    {
+        "section_id": "9.4.1",
+        "section_title": "Dosage and Administration"
+    },
+    {
+        "section_id": "9.4.2",
+        "section_title": "Identity of Investigational Medicinal Product(s)"
+    },
+    {
+        "section_id": "9.4.2.1",
+        "section_title": "Name of the Investigational Product"
+    },
+    {
+        "section_id": "9.4.2.2",
+        "section_title": "Packaging and Labeling of the Investigational Product"
+    },
+    {
+        "section_id": "9.4.2.3",
+        "section_title": "Storage Conditions"
+    },
+    {
+        "section_id": "9.4.2.4",
+        "section_title": "Handling, Storage, and Management Methods of the Investigational Product"
+    },
+    {
+        "section_id": "9.4.3",
+        "section_title": "Method of Assigning Subjects to Treatment Groups"
+    },
+    {
+        "section_id": "9.4.3.1",
+        "section_title": "Methods of Randomization and Allocation"
+    },
+    {
+        "section_id": "9.4.3.2",
+        "section_title": "Subject Enrollment"
+    },
+    {
+        "section_id": "9.4.4",
+        "section_title": "Selection of Doses and Dosing Regimen in the Study"
+    },
+    {
+        "section_id": "9.4.5",
+        "section_title": "Selection and Timing of Dose for Individual Subjects"
+    },
+    {
+        "section_id": "9.4.6",
+        "section_title": "Blinding"
+    },
+    {
+        "section_id": "9.4.7",
+        "section_title": "Prior and Concomitant Therapy"
+    },
+    {
+        "section_id": "9.4.7.1",
+        "section_title": "Prior Therapy"
+    },
+    {
+        "section_id": "9.4.7.2",
+        "section_title": "Prohibited Matters Before and During the Study Period"
+    },
+    {
+        "section_id": "9.4.8",
+        "section_title": "Treatment Compliance"
+    },
+    {
+        "section_id": "9.4.8.1",
+        "section_title": "Administration Instructions"
+    },
+    {
+        "section_id": "9.4.8.2",
+        "section_title": "Assessment of Treatment Compliance"
+    },
+    {
+        "section_id": "9.5",
+        "section_title": "Pharmacokinetic and Safety Assessments"
+    },
+    {
+        "section_id": "9.5.1",
+        "section_title": "Pharmacokinetic and Safety Assessments"
+    },
+    {
+        "section_id": "9.5.1.1",
+        "section_title": "Test/Observation Schedule"
+    },
+    {
+        "section_id": "9.5.1.2",
+        "section_title": "Items Related to Demographic Characteristics"
+    },
+    {
+        "section_id": "9.5.1.3",
+        "section_title": "Concomitant Medications"
+    },
+    {
+        "section_id": "9.5.1.4",
+        "section_title": "Treatment Compliance"
+    },
+    {
+        "section_id": "9.5.2",
+        "section_title": "Pharmacokinetic Assessments"
+    },
+    {
+        "section_id": "9.5.2.1",
+        "section_title": "Pharmacokinetic Endpoints"
+    },
+    {
+        "section_id": "9.5.2.2",
+        "section_title": "Time-point and Volume of Blood Sampling"
+    },
+    {
+        "section_id": "9.5.2.3",
+        "section_title": "Processing and Storage of Specimens"
+    },
+    {
+        "section_id": "9.5.3",
+        "section_title": "Safety Assessments"
+    },
+    {
+        "section_id": "9.5.3.1",
+        "section_title": "Adverse Events"
+    },
+    {
+        "section_id": "9.5.3.2",
+        "section_title": "Vital Signs"
+    },
+    {
+        "section_id": "9.5.3.3",
+        "section_title": "12-Lead ECG"
+    },
+    {
+        "section_id": "9.5.3.4",
+        "section_title": "Physical Examination"
+    },
+    {
+        "section_id": "9.5.3.5",
+        "section_title": "Laboratory Assessments"
+    },
+    {
+        "section_id": "9.5.3.6",
+        "section_title": "Total Blood Volume"
+    },
+    {
+        "section_id": "9.6",
+        "section_title": "Quality Control and Quality Assurance of the Study"
+    },
+    {
+        "section_id": "9.7",
+        "section_title": "Statistical Methods"
+    },
+    {
+        "section_id": "9.7.1",
+        "section_title": "Determination of Sample Size"
+    },
+    {
+        "section_id": "9.7.2",
+        "section_title": "Analysis Sets"
+    },
+    {
+        "section_id": "9.7.3",
+        "section_title": "Data Handling"
+    },
+    {
+        "section_id": "9.7.4",
+        "section_title": "Statistical Analysis Plan"
+    },
+    {
+        "section_id": "9.7.4.1",
+        "section_title": "Disposition of Subjects"
+    },
+    {
+        "section_id": "9.7.4.2",
+        "section_title": "Demographic and Other Baseline Characteristics"
+    },
+    {
+        "section_id": "9.7.4.3",
+        "section_title": "Medical History and Allergic History"
+    },
+    {
+        "section_id": "9.7.4.4",
+        "section_title": "Prior or Concomitant Medications"
+    },
+    {
+        "section_id": "9.7.4.5",
+        "section_title": "Study Medication Exposure"
+    },
+    {
+        "section_id": "9.7.4.6",
+        "section_title": "Pharmacokinetic Assessments"
+    },
+    {
+        "section_id": "9.7.4.7",
+        "section_title": "Safety Assessments"
+    },
+    {
+        "section_id": "9.8",
+        "section_title": "Changes in the Conduct of the Study or Planned Analyses"
+    },
+    {
+        "section_id": "9.8.1",
+        "section_title": "Changes in the Conduct of the Study"
+    },
+    {
+        "section_id": "9.8.2",
+        "section_title": "Changes in the Statistical Analysis Plan"
+    },
+    {
+        "section_id": "10",
+        "section_title": "STUDY SUBJECTS"
+    },
+    {
+        "section_id": "10.1",
+        "section_title": "Disposition of Subjects"
+    },
+    {
+        "section_id": "10.2",
+        "section_title": "Protocol Deviations"
+    },
+    {
+        "section_id": "11",
+        "section_title": "PHARMACOKINETIC EVALUATION"
+    },
+    {
+        "section_id": "11.1",
+        "section_title": "Data Sets Analyzed"
+    },
+    {
+        "section_id": "11.2",
+        "section_title": "Demographic and Other Baseline Characteristics"
+    },
+    {
+        "section_id": "11.2.1",
+        "section_title": "Medical History"
+    },
+    {
+        "section_id": "11.2.2",
+        "section_title": "Prior and Concomitant Medication"
+    },
+    {
+        "section_id": "11.3",
+        "section_title": "Pharmacokinetic Results"
+    },
+    {
+        "section_id": "11.3.1",
+        "section_title": "Unchanged Nextamab"
+    },
+    {
+        "section_id": "11.3.1.1",
+        "section_title": "Plasma Concentration"
+    },
+    {
+        "section_id": "11.3.1.2",
+        "section_title": "Plasma Pharmacokinetic Parameters"
+    },
+    {
+        "section_id": "11.3.1.3",
+        "section_title": "Urine Pharmacokinetic Parameters"
+    },
+    {
+        "section_id": "11.3.1.4",
+        "section_title": "Evaluation of Bioequivalence"
+    },
+    {
+        "section_id": "11.3.2",
+        "section_title": "Sulfate and Glucuronide Conjugates"
+    },
+    {
+        "section_id": "11.3.2.1",
+        "section_title": "Plasma Concentration"
+    },
+    {
+        "section_id": "11.3.2.2",
+        "section_title": "Plasma Pharmacokinetic Parameters"
+    },
+    {
+        "section_id": "11.3.2.3",
+        "section_title": "Urine Pharmacokinetic Parameters"
+    },
+    {
+        "section_id": "11.4",
+        "section_title": "Statistical/Analytical Issues"
+    },
+    {
+        "section_id": "11.4.1",
+        "section_title": "Adjustments for Covariates"
+    },
+    {
+        "section_id": "11.4.2",
+        "section_title": "Handling of Withdrawals or Missing Data"
+    },
+    {
+        "section_id": "11.4.3",
+        "section_title": "Interim Analyses and Data Monitoring"
+    },
+    {
+        "section_id": "11.4.4",
+        "section_title": "Multi-Center Studies"
+    },
+    {
+        "section_id": "11.4.5",
+        "section_title": "Multiple Comparison/Multiplicity"
+    },
+    {
+        "section_id": "11.4.6",
+        "section_title": "Use of an Efficacy Subset of Subjects"
+    },
+    {
+        "section_id": "11.4.7",
+        "section_title": "Active-Control Studies Intended to Show Equivalence"
+    },
+    {
+        "section_id": "11.4.8",
+        "section_title": "Examination of Subgroups"
+    },
+    {
+        "section_id": "11.5",
+        "section_title": "Tabulation of Individual Response Data"
+    },
+    {
+        "section_id": "11.6",
+        "section_title": "Pharmacokinetic Conclusions"
+    },
+    {
+        "section_id": "12",
+        "section_title": "SAFETY EVALUATION"
+    },
+    {
+        "section_id": "12.1",
+        "section_title": "Extent of Exposure"
+    },
+    {
+        "section_id": "12.2",
+        "section_title": "Adverse Events"
+    },
+    {
+        "section_id": "12.2.1",
+        "section_title": "Brief Summary of Adverse Events"
+    },
+    {
+        "section_id": "12.2.2",
+        "section_title": "Display of Adverse Events"
+    },
+    {
+        "section_id": "12.2.2.1",
+        "section_title": "All Adverse Events"
+    },
+    {
+        "section_id": "12.2.2.2",
+        "section_title": "Adverse Drug Reactions"
+    },
+    {
+        "section_id": "12.2.3",
+        "section_title": "Analysis of Adverse Events"
+    },
+    {
+        "section_id": "12.2.4",
+        "section_title": "Listing of Adverse Events by Subject"
+    },
+    {
+        "section_id": "12.3",
+        "section_title": "Deaths, Other Serious Adverse Events, and Other Significant Adverse Events"
+    },
+    {
+        "section_id": "12.3.1",
+        "section_title": "Listing of Deaths, Other Serious Adverse Events, and Other Significant Adverse Events"
+    },
+    {
+        "section_id": "12.3.1.1",
+        "section_title": "Deaths"
+    },
+    {
+        "section_id": "12.3.1.2",
+        "section_title": "Other Serious Adverse Events"
+    },
+    {
+        "section_id": "12.3.1.3",
+        "section_title": "Other Significant Adverse Events"
+    },
+    {
+        "section_id": "12.3.2",
+        "section_title": "Narratives of Deaths, Other Serious Adverse Events, and Other Significant Adverse Events"
+    },
+    {
+        "section_id": "12.3.3",
+        "section_title": "Analysis and Discussion of Deaths, Serious Adverse Events and Other Significant Events"
+    },
+    {
+        "section_id": "12.4",
+        "section_title": "Clinical Laboratory Evaluation"
+    },
+    {
+        "section_id": "12.4.1",
+        "section_title": "Listing of Individual Laboratory Measurements by Subject and Each Abnormal Laboratory Value"
+    },
+    {
+        "section_id": "12.4.2",
+        "section_title": "Evaluation of Each Laboratory Parameter"
+    },
+    {
+        "section_id": "12.4.2.1",
+        "section_title": "Laboratory Values Over Time"
+    },
+    {
+        "section_id": "12.4.2.2",
+        "section_title": "Individual Subject Changes"
+    },
+    {
+        "section_id": "12.4.2.3",
+        "section_title": "Individual Clinically Significant Abnormalities"
+    },
+    {
+        "section_id": "12.5",
+        "section_title": "Vital Signs, Physical Findings and Other Observations Related to Safety"
+    },
+    {
+        "section_id": "12.5.1",
+        "section_title": "Vital Signs"
+    },
+    {
+        "section_id": "12.5.2",
+        "section_title": "Electrocardiogram"
+    },
+    {
+        "section_id": "12.5.3",
+        "section_title": "Physical Examination"
+    },
+    {
+        "section_id": "12.5.4",
+        "section_title": "Overdose"
+    },
+    {
+        "section_id": "12.5.5",
+        "section_title": "Pregnancy Exposure"
+    },
+    {
+        "section_id": "12.5.6",
+        "section_title": "Medication Errors"
+    },
+    {
+        "section_id": "12.6",
+        "section_title": "Safety Conclusions"
+    },
+    {
+        "section_id": "13",
+        "section_title": "DISCUSSION AND OVERALL CONCLUSIONS"
+    },
+    {
+        "section_id": "13.1",
+        "section_title": "Discussion"
+    },
+    {
+        "section_id": "13.2",
+        "section_title": "Conclusions"
+    }
+]
