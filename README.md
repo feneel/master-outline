@@ -16,46 +16,8 @@ Full-stack Table of Contents editor with:
 - Node.js 18+ and npm
 - PostgreSQL
 
-## Backend Setup
-
-1. Create and activate a virtual environment:
-```bash
-cd backend
-python -m venv .venv
-source .venv/bin/activate
-```
-
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-3. Create `.env` in `backend/`:
-```env
-DATABASE_URL=postgresql://<user>:<password>@localhost:5432/<db_name>
-TOC_JSON_PATH=study_template.json
-LOG_LEVEL=INFO
-```
-
-4. Run the API server:
-```bash
-uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
-```
 
 Backend runs at `http://127.0.0.1:8000`.
-
-## Frontend Setup
-
-1. Install dependencies:
-```bash
-cd frontend
-npm install
-```
-
-2. Start dev server:
-```bash
-npm run dev
-```
 
 Frontend runs at `http://127.0.0.1:5173`.
 
