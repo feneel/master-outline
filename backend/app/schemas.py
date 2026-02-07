@@ -1,7 +1,7 @@
 from typing import List, Optional
 from uuid import UUID
 
-from pydantic import BaseModel, Field, field_validator
+from pydantic import BaseModel, Field, field_validator, model_validator
 
 class SectionNode(BaseModel):
     id: UUID
@@ -40,7 +40,23 @@ class CreatePayload(BaseModel):
 class MovePayload(BaseModel):
     section_id: UUID
     new_parent_id: Optional[UUID] = None
-    new_order: int
+    new_order: Optional[int] = None
+    target_section_id: Optional[UUID] = None
+    position: str = "before"  # before | after
+    allow_reparent: bool = False
+
+    @field_validator("position")
+    @classmethod
+    def validate_position(cls, value: str) -> str:
+        if value not in {"before", "after"}:
+            raise ValueError("position must be 'before' or 'after'")
+        return value
+
+    @model_validator(mode="after")
+    def validate_move_mode(self):
+        if self.target_section_id is None and self.new_order is None:
+            raise ValueError("Provide either target_section_id or new_order")
+        return self
 
 
 class ImportTemplateItem(BaseModel):

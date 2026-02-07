@@ -67,6 +67,50 @@ def build_tree(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return roots
 
 
+def rebuild_orders_and_section_keys(cur) -> None:
+    """Normalize sibling order and rebuild hierarchical section_key values."""
+    final_keys: dict[UUID, str] = {}
+
+    def walk(parent_id: UUID | None, parent_key: str | None) -> None:
+        cur.execute(
+            """
+            SELECT id
+            FROM document_section
+            WHERE parent_id IS NOT DISTINCT FROM %s
+            ORDER BY "order", id
+            """,
+            (parent_id,),
+        )
+        children = cur.fetchall()
+
+        for idx, child in enumerate(children, start=1):
+            child_id = child["id"]
+            # Keep sibling order contiguous.
+            cur.execute(
+                'UPDATE document_section SET "order" = %s WHERE id = %s',
+                (idx, child_id),
+            )
+
+            new_key = f"{parent_key}.{idx}" if parent_key is not None else str(idx)
+            final_keys[child_id] = new_key
+            walk(child_id, new_key)
+
+    walk(None, None)
+
+    # Two-phase key update avoids unique(section_key) conflicts during renumbering.
+    for section_id in final_keys:
+        cur.execute(
+            "UPDATE document_section SET section_key = concat('__tmp__', id::text) WHERE id = %s",
+            (section_id,),
+        )
+
+    for section_id, new_key in final_keys.items():
+        cur.execute(
+            "UPDATE document_section SET section_key = %s, updated_at = NOW() WHERE id = %s",
+            (new_key, section_id),
+        )
+
+
 def normalize_template_items(raw_items: list[dict[str, Any]]) -> list[dict[str, Any]]:
     normalized: list[dict[str, Any]] = []
     sibling_counts: dict[str, int] = {}
@@ -322,6 +366,7 @@ def create_section(payload: CreatePayload):
                 WHERE id = %s
             """, (payload.parent_id,))
 
+        rebuild_orders_and_section_keys(cur)
         conn.commit()
     return {"ok": True, "id": new_row["id"]}
 
@@ -411,6 +456,7 @@ def delete_section(
                 WHERE p.id = %s
             """, (parent_id,))
 
+        rebuild_orders_and_section_keys(cur)
         conn.commit()
     return {"ok": True}
 
@@ -425,11 +471,33 @@ def move_section(payload: MovePayload) -> BasicResponse:
 
         old_parent = section["parent_id"]
         old_order = section["order"]
-        new_parent = payload.new_parent_id
-        new_order = payload.new_order
 
-        if new_order < 1:
+        # Reorder by anchor (target_section_id) or by explicit parent/order.
+        if payload.target_section_id is not None:
+            if payload.target_section_id == payload.section_id:
+                raise HTTPException(status_code=400, detail="Cannot move relative to itself")
+            cur.execute(
+                'SELECT id, parent_id, "order" FROM document_section WHERE id = %s',
+                (payload.target_section_id,),
+            )
+            target = cur.fetchone()
+            if not target:
+                raise HTTPException(status_code=404, detail="Target section not found")
+
+            new_parent = target["parent_id"]
+            new_order = target["order"] if payload.position == "before" else target["order"] + 1
+        else:
+            new_parent = payload.new_parent_id
+            new_order = payload.new_order
+
+        if new_order is None or new_order < 1:
             raise HTTPException(status_code=400, detail="new_order must be >= 1")
+
+        if new_parent and new_parent != old_parent and not payload.allow_reparent:
+            raise HTTPException(
+                status_code=400,
+                detail="Cross-parent move blocked. Set allow_reparent=true only for explicit nesting.",
+            )
 
         if new_parent:
             cur.execute("SELECT id FROM document_section WHERE id = %s", (new_parent,))
@@ -502,5 +570,6 @@ def move_section(payload: MovePayload) -> BasicResponse:
                     WHERE p.id = %s
                 """, (pid,))
 
+        rebuild_orders_and_section_keys(cur)
         conn.commit()
     return {"ok": True}
