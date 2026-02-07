@@ -1,0 +1,1334 @@
+[
+  {
+    "section_id": "1",
+    "section_title": "TITLE PAGE",
+    "section_key": "1",
+    "name": "TITLE PAGE",
+    "parent_key": null,
+    "depth": 1,
+    "order": 1
+  },
+  {
+    "section_id": "2",
+    "section_title": "SYNOPSIS",
+    "section_key": "2",
+    "name": "SYNOPSIS",
+    "parent_key": null,
+    "depth": 1,
+    "order": 2
+  },
+  {
+    "section_id": "3",
+    "section_title": "TABLE OF CONTENTS",
+    "section_key": "3",
+    "name": "TABLE OF CONTENTS",
+    "parent_key": null,
+    "depth": 1,
+    "order": 3
+  },
+  {
+    "section_id": "4",
+    "section_title": "LIST OF ABBREVIATIONS AND DEFINITION OF TERMS",
+    "section_key": "4",
+    "name": "LIST OF ABBREVIATIONS AND DEFINITION OF TERMS",
+    "parent_key": null,
+    "depth": 1,
+    "order": 4
+  },
+  {
+    "section_id": "5",
+    "section_title": "ETHICS",
+    "section_key": "5",
+    "name": "ETHICS",
+    "parent_key": null,
+    "depth": 1,
+    "order": 5
+  },
+  {
+    "section_id": "5.1",
+    "section_title": "Independent Ethics Committee Approval",
+    "section_key": "5.1",
+    "name": "Independent Ethics Committee Approval",
+    "parent_key": "5",
+    "depth": 2,
+    "order": 1
+  },
+  {
+    "section_id": "5.2",
+    "section_title": "Ethical Conduct of the Study",
+    "section_key": "5.2",
+    "name": "Ethical Conduct of the Study",
+    "parent_key": "5",
+    "depth": 2,
+    "order": 2
+  },
+  {
+    "section_id": "5.3",
+    "section_title": "Subject Information and Consent",
+    "section_key": "5.3",
+    "name": "Subject Information and Consent",
+    "parent_key": "5",
+    "depth": 2,
+    "order": 3
+  },
+  {
+    "section_id": "6",
+    "section_title": "INVESTIGATORS AND STUDY ADMINISTRATIVE STRUCTURE",
+    "section_key": "6",
+    "name": "INVESTIGATORS AND STUDY ADMINISTRATIVE STRUCTURE",
+    "parent_key": null,
+    "depth": 1,
+    "order": 6
+  },
+  {
+    "section_id": "7",
+    "section_title": "INTRODUCTION",
+    "section_key": "7",
+    "name": "INTRODUCTION",
+    "parent_key": null,
+    "depth": 1,
+    "order": 7
+  },
+  {
+    "section_id": "8",
+    "section_title": "STUDY OBJECTIVES AND ENDPOINTS",
+    "section_key": "8",
+    "name": "STUDY OBJECTIVES AND ENDPOINTS",
+    "parent_key": null,
+    "depth": 1,
+    "order": 8
+  },
+  {
+    "section_id": "8.1",
+    "section_title": "Study Objectives",
+    "section_key": "8.1",
+    "name": "Study Objectives",
+    "parent_key": "8",
+    "depth": 2,
+    "order": 1
+  },
+  {
+    "section_id": "8.2",
+    "section_title": "Study Endpoints",
+    "section_key": "8.2",
+    "name": "Study Endpoints",
+    "parent_key": "8",
+    "depth": 2,
+    "order": 2
+  },
+  {
+    "section_id": "8.2.1",
+    "section_title": "Pharmacokinetic Assessments",
+    "section_key": "8.2.1",
+    "name": "Pharmacokinetic Assessments",
+    "parent_key": "8.2",
+    "depth": 3,
+    "order": 1
+  },
+  {
+    "section_id": "8.2.2",
+    "section_title": "Safety Assessments",
+    "section_key": "8.2.2",
+    "name": "Safety Assessments",
+    "parent_key": "8.2",
+    "depth": 3,
+    "order": 2
+  },
+  {
+    "section_id": "9",
+    "section_title": "INVESTIGATIONAL PLAN",
+    "section_key": "9",
+    "name": "INVESTIGATIONAL PLAN",
+    "parent_key": null,
+    "depth": 1,
+    "order": 9
+  },
+  {
+    "section_id": "9.1",
+    "section_title": "Overall Study Design and Plan",
+    "section_key": "9.1",
+    "name": "Overall Study Design and Plan",
+    "parent_key": "9",
+    "depth": 2,
+    "order": 1
+  },
+  {
+    "section_id": "9.1.1",
+    "section_title": "Study Design",
+    "section_key": "9.1.1",
+    "name": "Study Design",
+    "parent_key": "9.1",
+    "depth": 3,
+    "order": 1
+  },
+  {
+    "section_id": "9.1.1.1",
+    "section_title": "Cohorts",
+    "section_key": "9.1.1.1",
+    "name": "Cohorts",
+    "parent_key": "9.1.1",
+    "depth": 4,
+    "order": 1
+  },
+  {
+    "section_id": "9.1.1.2",
+    "section_title": "Study Period and Evaluation Period",
+    "section_key": "9.1.1.2",
+    "name": "Study Period and Evaluation Period",
+    "parent_key": "9.1.1",
+    "depth": 4,
+    "order": 2
+  },
+  {
+    "section_id": "9.1.2",
+    "section_title": "Study Population and Planned Number of Subjects",
+    "section_key": "9.1.2",
+    "name": "Study Population and Planned Number of Subjects",
+    "parent_key": "9.1",
+    "depth": 3,
+    "order": 2
+  },
+  {
+    "section_id": "9.1.3",
+    "section_title": "Level and Method of Blinding",
+    "section_key": "9.1.3",
+    "name": "Level and Method of Blinding",
+    "parent_key": "9.1",
+    "depth": 3,
+    "order": 3
+  },
+  {
+    "section_id": "9.1.4",
+    "section_title": "Type of Comparator",
+    "section_key": "9.1.4",
+    "name": "Type of Comparator",
+    "parent_key": "9.1",
+    "depth": 3,
+    "order": 4
+  },
+  {
+    "section_id": "9.1.5",
+    "section_title": "Method of Allocating Subjects to Study",
+    "section_key": "9.1.5",
+    "name": "Method of Allocating Subjects to Study",
+    "parent_key": "9.1",
+    "depth": 3,
+    "order": 5
+  },
+  {
+    "section_id": "9.2",
+    "section_title": "Discussion of Study Design, Including Choice of Control Group(s)",
+    "section_key": "9.2",
+    "name": "Discussion of Study Design, Including Choice of Control Group(s)",
+    "parent_key": "9",
+    "depth": 2,
+    "order": 2
+  },
+  {
+    "section_id": "9.3",
+    "section_title": "Selection of Study Population",
+    "section_key": "9.3",
+    "name": "Selection of Study Population",
+    "parent_key": "9",
+    "depth": 2,
+    "order": 3
+  },
+  {
+    "section_id": "9.3.1",
+    "section_title": "Inclusion Criteria",
+    "section_key": "9.3.1",
+    "name": "Inclusion Criteria",
+    "parent_key": "9.3",
+    "depth": 3,
+    "order": 1
+  },
+  {
+    "section_id": "9.3.2",
+    "section_title": "Exclusion Criteria",
+    "section_key": "9.3.2",
+    "name": "Exclusion Criteria",
+    "parent_key": "9.3",
+    "depth": 3,
+    "order": 2
+  },
+  {
+    "section_id": "9.3.3",
+    "section_title": "Withdrawal of Subjects from Participation in the Study or Assessment",
+    "section_key": "9.3.3",
+    "name": "Withdrawal of Subjects from Participation in the Study or Assessment",
+    "parent_key": "9.3",
+    "depth": 3,
+    "order": 3
+  },
+  {
+    "section_id": "9.3.3.1",
+    "section_title": "Discontinuation Criteria of Subjects",
+    "section_key": "9.3.3.1",
+    "name": "Discontinuation Criteria of Subjects",
+    "parent_key": "9.3.3",
+    "depth": 4,
+    "order": 1
+  },
+  {
+    "section_id": "9.3.3.2",
+    "section_title": "Termination or Suspension of the Study",
+    "section_key": "9.3.3.2",
+    "name": "Termination or Suspension of the Study",
+    "parent_key": "9.3.3",
+    "depth": 4,
+    "order": 2
+  },
+  {
+    "section_id": "9.3.4",
+    "section_title": "Specific Subject Restrictions",
+    "section_key": "9.3.4",
+    "name": "Specific Subject Restrictions",
+    "parent_key": "9.3",
+    "depth": 3,
+    "order": 4
+  },
+  {
+    "section_id": "9.3.4.1",
+    "section_title": "Prohibited Matters Before and During the Study Period",
+    "section_key": "9.3.4.1",
+    "name": "Prohibited Matters Before and During the Study Period",
+    "parent_key": "9.3.4",
+    "depth": 4,
+    "order": 1
+  },
+  {
+    "section_id": "9.3.4.2",
+    "section_title": "Subject Management",
+    "section_key": "9.3.4.2",
+    "name": "Subject Management",
+    "parent_key": "9.3.4",
+    "depth": 4,
+    "order": 2
+  },
+  {
+    "section_id": "9.4",
+    "section_title": "Study Methodology",
+    "section_key": "9.4",
+    "name": "Study Methodology",
+    "parent_key": "9",
+    "depth": 2,
+    "order": 4
+  },
+  {
+    "section_id": "9.4.1",
+    "section_title": "Dosage and Administration",
+    "section_key": "9.4.1",
+    "name": "Dosage and Administration",
+    "parent_key": "9.4",
+    "depth": 3,
+    "order": 1
+  },
+  {
+    "section_id": "9.4.2",
+    "section_title": "Identity of Investigational Medicinal Product(s)",
+    "section_key": "9.4.2",
+    "name": "Identity of Investigational Medicinal Product(s)",
+    "parent_key": "9.4",
+    "depth": 3,
+    "order": 2
+  },
+  {
+    "section_id": "9.4.2.1",
+    "section_title": "Name of the Investigational Product",
+    "section_key": "9.4.2.1",
+    "name": "Name of the Investigational Product",
+    "parent_key": "9.4.2",
+    "depth": 4,
+    "order": 1
+  },
+  {
+    "section_id": "9.4.2.2",
+    "section_title": "Packaging and Labeling of the Investigational Product",
+    "section_key": "9.4.2.2",
+    "name": "Packaging and Labeling of the Investigational Product",
+    "parent_key": "9.4.2",
+    "depth": 4,
+    "order": 2
+  },
+  {
+    "section_id": "9.4.2.3",
+    "section_title": "Storage Conditions",
+    "section_key": "9.4.2.3",
+    "name": "Storage Conditions",
+    "parent_key": "9.4.2",
+    "depth": 4,
+    "order": 3
+  },
+  {
+    "section_id": "9.4.2.4",
+    "section_title": "Handling, Storage, and Management Methods of the Investigational Product",
+    "section_key": "9.4.2.4",
+    "name": "Handling, Storage, and Management Methods of the Investigational Product",
+    "parent_key": "9.4.2",
+    "depth": 4,
+    "order": 4
+  },
+  {
+    "section_id": "9.4.3",
+    "section_title": "Method of Assigning Subjects to Treatment Groups",
+    "section_key": "9.4.3",
+    "name": "Method of Assigning Subjects to Treatment Groups",
+    "parent_key": "9.4",
+    "depth": 3,
+    "order": 3
+  },
+  {
+    "section_id": "9.4.3.1",
+    "section_title": "Methods of Randomization and Allocation",
+    "section_key": "9.4.3.1",
+    "name": "Methods of Randomization and Allocation",
+    "parent_key": "9.4.3",
+    "depth": 4,
+    "order": 1
+  },
+  {
+    "section_id": "9.4.3.2",
+    "section_title": "Subject Enrollment",
+    "section_key": "9.4.3.2",
+    "name": "Subject Enrollment",
+    "parent_key": "9.4.3",
+    "depth": 4,
+    "order": 2
+  },
+  {
+    "section_id": "9.4.4",
+    "section_title": "Selection of Doses and Dosing Regimen in the Study",
+    "section_key": "9.4.4",
+    "name": "Selection of Doses and Dosing Regimen in the Study",
+    "parent_key": "9.4",
+    "depth": 3,
+    "order": 4
+  },
+  {
+    "section_id": "9.4.5",
+    "section_title": "Selection and Timing of Dose for Individual Subjects",
+    "section_key": "9.4.5",
+    "name": "Selection and Timing of Dose for Individual Subjects",
+    "parent_key": "9.4",
+    "depth": 3,
+    "order": 5
+  },
+  {
+    "section_id": "9.4.6",
+    "section_title": "Blinding",
+    "section_key": "9.4.6",
+    "name": "Blinding",
+    "parent_key": "9.4",
+    "depth": 3,
+    "order": 6
+  },
+  {
+    "section_id": "9.4.7",
+    "section_title": "Prior and Concomitant Therapy",
+    "section_key": "9.4.7",
+    "name": "Prior and Concomitant Therapy",
+    "parent_key": "9.4",
+    "depth": 3,
+    "order": 7
+  },
+  {
+    "section_id": "9.4.7.1",
+    "section_title": "Prior Therapy",
+    "section_key": "9.4.7.1",
+    "name": "Prior Therapy",
+    "parent_key": "9.4.7",
+    "depth": 4,
+    "order": 1
+  },
+  {
+    "section_id": "9.4.7.2",
+    "section_title": "Prohibited Matters Before and During the Study Period",
+    "section_key": "9.4.7.2",
+    "name": "Prohibited Matters Before and During the Study Period",
+    "parent_key": "9.4.7",
+    "depth": 4,
+    "order": 2
+  },
+  {
+    "section_id": "9.4.8",
+    "section_title": "Treatment Compliance",
+    "section_key": "9.4.8",
+    "name": "Treatment Compliance",
+    "parent_key": "9.4",
+    "depth": 3,
+    "order": 8
+  },
+  {
+    "section_id": "9.4.8.1",
+    "section_title": "Administration Instructions",
+    "section_key": "9.4.8.1",
+    "name": "Administration Instructions",
+    "parent_key": "9.4.8",
+    "depth": 4,
+    "order": 1
+  },
+  {
+    "section_id": "9.4.8.2",
+    "section_title": "Assessment of Treatment Compliance",
+    "section_key": "9.4.8.2",
+    "name": "Assessment of Treatment Compliance",
+    "parent_key": "9.4.8",
+    "depth": 4,
+    "order": 2
+  },
+  {
+    "section_id": "9.5",
+    "section_title": "Pharmacokinetic and Safety Assessments",
+    "section_key": "9.5",
+    "name": "Pharmacokinetic and Safety Assessments",
+    "parent_key": "9",
+    "depth": 2,
+    "order": 5
+  },
+  {
+    "section_id": "9.5.1",
+    "section_title": "Pharmacokinetic and Safety Assessments",
+    "section_key": "9.5.1",
+    "name": "Pharmacokinetic and Safety Assessments",
+    "parent_key": "9.5",
+    "depth": 3,
+    "order": 1
+  },
+  {
+    "section_id": "9.5.1.1",
+    "section_title": "Test/Observation Schedule",
+    "section_key": "9.5.1.1",
+    "name": "Test/Observation Schedule",
+    "parent_key": "9.5.1",
+    "depth": 4,
+    "order": 1
+  },
+  {
+    "section_id": "9.5.1.2",
+    "section_title": "Items Related to Demographic Characteristics",
+    "section_key": "9.5.1.2",
+    "name": "Items Related to Demographic Characteristics",
+    "parent_key": "9.5.1",
+    "depth": 4,
+    "order": 2
+  },
+  {
+    "section_id": "9.5.1.3",
+    "section_title": "Concomitant Medications",
+    "section_key": "9.5.1.3",
+    "name": "Concomitant Medications",
+    "parent_key": "9.5.1",
+    "depth": 4,
+    "order": 3
+  },
+  {
+    "section_id": "9.5.1.4",
+    "section_title": "Treatment Compliance",
+    "section_key": "9.5.1.4",
+    "name": "Treatment Compliance",
+    "parent_key": "9.5.1",
+    "depth": 4,
+    "order": 4
+  },
+  {
+    "section_id": "9.5.2",
+    "section_title": "Pharmacokinetic Assessments",
+    "section_key": "9.5.2",
+    "name": "Pharmacokinetic Assessments",
+    "parent_key": "9.5",
+    "depth": 3,
+    "order": 2
+  },
+  {
+    "section_id": "9.5.2.1",
+    "section_title": "Pharmacokinetic Endpoints",
+    "section_key": "9.5.2.1",
+    "name": "Pharmacokinetic Endpoints",
+    "parent_key": "9.5.2",
+    "depth": 4,
+    "order": 1
+  },
+  {
+    "section_id": "9.5.2.2",
+    "section_title": "Time-point and Volume of Blood Sampling",
+    "section_key": "9.5.2.2",
+    "name": "Time-point and Volume of Blood Sampling",
+    "parent_key": "9.5.2",
+    "depth": 4,
+    "order": 2
+  },
+  {
+    "section_id": "9.5.2.3",
+    "section_title": "Processing and Storage of Specimens",
+    "section_key": "9.5.2.3",
+    "name": "Processing and Storage of Specimens",
+    "parent_key": "9.5.2",
+    "depth": 4,
+    "order": 3
+  },
+  {
+    "section_id": "9.5.3",
+    "section_title": "Safety Assessments",
+    "section_key": "9.5.3",
+    "name": "Safety Assessments",
+    "parent_key": "9.5",
+    "depth": 3,
+    "order": 3
+  },
+  {
+    "section_id": "9.5.3.1",
+    "section_title": "Adverse Events",
+    "section_key": "9.5.3.1",
+    "name": "Adverse Events",
+    "parent_key": "9.5.3",
+    "depth": 4,
+    "order": 1
+  },
+  {
+    "section_id": "9.5.3.2",
+    "section_title": "Vital Signs",
+    "section_key": "9.5.3.2",
+    "name": "Vital Signs",
+    "parent_key": "9.5.3",
+    "depth": 4,
+    "order": 2
+  },
+  {
+    "section_id": "9.5.3.3",
+    "section_title": "12-Lead ECG",
+    "section_key": "9.5.3.3",
+    "name": "12-Lead ECG",
+    "parent_key": "9.5.3",
+    "depth": 4,
+    "order": 3
+  },
+  {
+    "section_id": "9.5.3.4",
+    "section_title": "Physical Examination",
+    "section_key": "9.5.3.4",
+    "name": "Physical Examination",
+    "parent_key": "9.5.3",
+    "depth": 4,
+    "order": 4
+  },
+  {
+    "section_id": "9.5.3.5",
+    "section_title": "Laboratory Assessments",
+    "section_key": "9.5.3.5",
+    "name": "Laboratory Assessments",
+    "parent_key": "9.5.3",
+    "depth": 4,
+    "order": 5
+  },
+  {
+    "section_id": "9.5.3.6",
+    "section_title": "Total Blood Volume",
+    "section_key": "9.5.3.6",
+    "name": "Total Blood Volume",
+    "parent_key": "9.5.3",
+    "depth": 4,
+    "order": 6
+  },
+  {
+    "section_id": "9.6",
+    "section_title": "Quality Control and Quality Assurance of the Study",
+    "section_key": "9.6",
+    "name": "Quality Control and Quality Assurance of the Study",
+    "parent_key": "9",
+    "depth": 2,
+    "order": 6
+  },
+  {
+    "section_id": "9.7",
+    "section_title": "Statistical Methods",
+    "section_key": "9.7",
+    "name": "Statistical Methods",
+    "parent_key": "9",
+    "depth": 2,
+    "order": 7
+  },
+  {
+    "section_id": "9.7.1",
+    "section_title": "Determination of Sample Size",
+    "section_key": "9.7.1",
+    "name": "Determination of Sample Size",
+    "parent_key": "9.7",
+    "depth": 3,
+    "order": 1
+  },
+  {
+    "section_id": "9.7.2",
+    "section_title": "Analysis Sets",
+    "section_key": "9.7.2",
+    "name": "Analysis Sets",
+    "parent_key": "9.7",
+    "depth": 3,
+    "order": 2
+  },
+  {
+    "section_id": "9.7.3",
+    "section_title": "Data Handling",
+    "section_key": "9.7.3",
+    "name": "Data Handling",
+    "parent_key": "9.7",
+    "depth": 3,
+    "order": 3
+  },
+  {
+    "section_id": "9.7.4",
+    "section_title": "Statistical Analysis Plan",
+    "section_key": "9.7.4",
+    "name": "Statistical Analysis Plan",
+    "parent_key": "9.7",
+    "depth": 3,
+    "order": 4
+  },
+  {
+    "section_id": "9.7.4.1",
+    "section_title": "Disposition of Subjects",
+    "section_key": "9.7.4.1",
+    "name": "Disposition of Subjects",
+    "parent_key": "9.7.4",
+    "depth": 4,
+    "order": 1
+  },
+  {
+    "section_id": "9.7.4.2",
+    "section_title": "Demographic and Other Baseline Characteristics",
+    "section_key": "9.7.4.2",
+    "name": "Demographic and Other Baseline Characteristics",
+    "parent_key": "9.7.4",
+    "depth": 4,
+    "order": 2
+  },
+  {
+    "section_id": "9.7.4.3",
+    "section_title": "Medical History and Allergic History",
+    "section_key": "9.7.4.3",
+    "name": "Medical History and Allergic History",
+    "parent_key": "9.7.4",
+    "depth": 4,
+    "order": 3
+  },
+  {
+    "section_id": "9.7.4.4",
+    "section_title": "Prior or Concomitant Medications",
+    "section_key": "9.7.4.4",
+    "name": "Prior or Concomitant Medications",
+    "parent_key": "9.7.4",
+    "depth": 4,
+    "order": 4
+  },
+  {
+    "section_id": "9.7.4.5",
+    "section_title": "Study Medication Exposure",
+    "section_key": "9.7.4.5",
+    "name": "Study Medication Exposure",
+    "parent_key": "9.7.4",
+    "depth": 4,
+    "order": 5
+  },
+  {
+    "section_id": "9.7.4.6",
+    "section_title": "Pharmacokinetic Assessments",
+    "section_key": "9.7.4.6",
+    "name": "Pharmacokinetic Assessments",
+    "parent_key": "9.7.4",
+    "depth": 4,
+    "order": 6
+  },
+  {
+    "section_id": "9.7.4.7",
+    "section_title": "Safety Assessments",
+    "section_key": "9.7.4.7",
+    "name": "Safety Assessments",
+    "parent_key": "9.7.4",
+    "depth": 4,
+    "order": 7
+  },
+  {
+    "section_id": "9.8",
+    "section_title": "Changes in the Conduct of the Study or Planned Analyses",
+    "section_key": "9.8",
+    "name": "Changes in the Conduct of the Study or Planned Analyses",
+    "parent_key": "9",
+    "depth": 2,
+    "order": 8
+  },
+  {
+    "section_id": "9.8.1",
+    "section_title": "Changes in the Conduct of the Study",
+    "section_key": "9.8.1",
+    "name": "Changes in the Conduct of the Study",
+    "parent_key": "9.8",
+    "depth": 3,
+    "order": 1
+  },
+  {
+    "section_id": "9.8.2",
+    "section_title": "Changes in the Statistical Analysis Plan",
+    "section_key": "9.8.2",
+    "name": "Changes in the Statistical Analysis Plan",
+    "parent_key": "9.8",
+    "depth": 3,
+    "order": 2
+  },
+  {
+    "section_id": "10",
+    "section_title": "STUDY SUBJECTS",
+    "section_key": "10",
+    "name": "STUDY SUBJECTS",
+    "parent_key": null,
+    "depth": 1,
+    "order": 10
+  },
+  {
+    "section_id": "10.1",
+    "section_title": "Disposition of Subjects",
+    "section_key": "10.1",
+    "name": "Disposition of Subjects",
+    "parent_key": "10",
+    "depth": 2,
+    "order": 1
+  },
+  {
+    "section_id": "10.2",
+    "section_title": "Protocol Deviations",
+    "section_key": "10.2",
+    "name": "Protocol Deviations",
+    "parent_key": "10",
+    "depth": 2,
+    "order": 2
+  },
+  {
+    "section_id": "11",
+    "section_title": "PHARMACOKINETIC EVALUATION",
+    "section_key": "11",
+    "name": "PHARMACOKINETIC EVALUATION",
+    "parent_key": null,
+    "depth": 1,
+    "order": 11
+  },
+  {
+    "section_id": "11.1",
+    "section_title": "Data Sets Analyzed",
+    "section_key": "11.1",
+    "name": "Data Sets Analyzed",
+    "parent_key": "11",
+    "depth": 2,
+    "order": 1
+  },
+  {
+    "section_id": "11.2",
+    "section_title": "Demographic and Other Baseline Characteristics",
+    "section_key": "11.2",
+    "name": "Demographic and Other Baseline Characteristics",
+    "parent_key": "11",
+    "depth": 2,
+    "order": 2
+  },
+  {
+    "section_id": "11.2.1",
+    "section_title": "Medical History",
+    "section_key": "11.2.1",
+    "name": "Medical History",
+    "parent_key": "11.2",
+    "depth": 3,
+    "order": 1
+  },
+  {
+    "section_id": "11.2.2",
+    "section_title": "Prior and Concomitant Medication",
+    "section_key": "11.2.2",
+    "name": "Prior and Concomitant Medication",
+    "parent_key": "11.2",
+    "depth": 3,
+    "order": 2
+  },
+  {
+    "section_id": "11.3",
+    "section_title": "Pharmacokinetic Results",
+    "section_key": "11.3",
+    "name": "Pharmacokinetic Results",
+    "parent_key": "11",
+    "depth": 2,
+    "order": 3
+  },
+  {
+    "section_id": "11.3.1",
+    "section_title": "Unchanged Nextamab",
+    "section_key": "11.3.1",
+    "name": "Unchanged Nextamab",
+    "parent_key": "11.3",
+    "depth": 3,
+    "order": 1
+  },
+  {
+    "section_id": "11.3.1.1",
+    "section_title": "Plasma Concentration",
+    "section_key": "11.3.1.1",
+    "name": "Plasma Concentration",
+    "parent_key": "11.3.1",
+    "depth": 4,
+    "order": 1
+  },
+  {
+    "section_id": "11.3.1.2",
+    "section_title": "Plasma Pharmacokinetic Parameters",
+    "section_key": "11.3.1.2",
+    "name": "Plasma Pharmacokinetic Parameters",
+    "parent_key": "11.3.1",
+    "depth": 4,
+    "order": 2
+  },
+  {
+    "section_id": "11.3.1.3",
+    "section_title": "Urine Pharmacokinetic Parameters",
+    "section_key": "11.3.1.3",
+    "name": "Urine Pharmacokinetic Parameters",
+    "parent_key": "11.3.1",
+    "depth": 4,
+    "order": 3
+  },
+  {
+    "section_id": "11.3.1.4",
+    "section_title": "Evaluation of Bioequivalence",
+    "section_key": "11.3.1.4",
+    "name": "Evaluation of Bioequivalence",
+    "parent_key": "11.3.1",
+    "depth": 4,
+    "order": 4
+  },
+  {
+    "section_id": "11.3.2",
+    "section_title": "Sulfate and Glucuronide Conjugates",
+    "section_key": "11.3.2",
+    "name": "Sulfate and Glucuronide Conjugates",
+    "parent_key": "11.3",
+    "depth": 3,
+    "order": 2
+  },
+  {
+    "section_id": "11.3.2.1",
+    "section_title": "Plasma Concentration",
+    "section_key": "11.3.2.1",
+    "name": "Plasma Concentration",
+    "parent_key": "11.3.2",
+    "depth": 4,
+    "order": 1
+  },
+  {
+    "section_id": "11.3.2.2",
+    "section_title": "Plasma Pharmacokinetic Parameters",
+    "section_key": "11.3.2.2",
+    "name": "Plasma Pharmacokinetic Parameters",
+    "parent_key": "11.3.2",
+    "depth": 4,
+    "order": 2
+  },
+  {
+    "section_id": "11.3.2.3",
+    "section_title": "Urine Pharmacokinetic Parameters",
+    "section_key": "11.3.2.3",
+    "name": "Urine Pharmacokinetic Parameters",
+    "parent_key": "11.3.2",
+    "depth": 4,
+    "order": 3
+  },
+  {
+    "section_id": "11.4",
+    "section_title": "Statistical/Analytical Issues",
+    "section_key": "11.4",
+    "name": "Statistical/Analytical Issues",
+    "parent_key": "11",
+    "depth": 2,
+    "order": 4
+  },
+  {
+    "section_id": "11.4.1",
+    "section_title": "Adjustments for Covariates",
+    "section_key": "11.4.1",
+    "name": "Adjustments for Covariates",
+    "parent_key": "11.4",
+    "depth": 3,
+    "order": 1
+  },
+  {
+    "section_id": "11.4.2",
+    "section_title": "Handling of Withdrawals or Missing Data",
+    "section_key": "11.4.2",
+    "name": "Handling of Withdrawals or Missing Data",
+    "parent_key": "11.4",
+    "depth": 3,
+    "order": 2
+  },
+  {
+    "section_id": "11.4.3",
+    "section_title": "Interim Analyses and Data Monitoring",
+    "section_key": "11.4.3",
+    "name": "Interim Analyses and Data Monitoring",
+    "parent_key": "11.4",
+    "depth": 3,
+    "order": 3
+  },
+  {
+    "section_id": "11.4.4",
+    "section_title": "Multi-Center Studies",
+    "section_key": "11.4.4",
+    "name": "Multi-Center Studies",
+    "parent_key": "11.4",
+    "depth": 3,
+    "order": 4
+  },
+  {
+    "section_id": "11.4.5",
+    "section_title": "Multiple Comparison/Multiplicity",
+    "section_key": "11.4.5",
+    "name": "Multiple Comparison/Multiplicity",
+    "parent_key": "11.4",
+    "depth": 3,
+    "order": 5
+  },
+  {
+    "section_id": "11.4.6",
+    "section_title": "Use of an Efficacy Subset of Subjects",
+    "section_key": "11.4.6",
+    "name": "Use of an Efficacy Subset of Subjects",
+    "parent_key": "11.4",
+    "depth": 3,
+    "order": 6
+  },
+  {
+    "section_id": "11.4.7",
+    "section_title": "Active-Control Studies Intended to Show Equivalence",
+    "section_key": "11.4.7",
+    "name": "Active-Control Studies Intended to Show Equivalence",
+    "parent_key": "11.4",
+    "depth": 3,
+    "order": 7
+  },
+  {
+    "section_id": "11.4.8",
+    "section_title": "Examination of Subgroups",
+    "section_key": "11.4.8",
+    "name": "Examination of Subgroups",
+    "parent_key": "11.4",
+    "depth": 3,
+    "order": 8
+  },
+  {
+    "section_id": "11.5",
+    "section_title": "Tabulation of Individual Response Data",
+    "section_key": "11.5",
+    "name": "Tabulation of Individual Response Data",
+    "parent_key": "11",
+    "depth": 2,
+    "order": 5
+  },
+  {
+    "section_id": "11.6",
+    "section_title": "Pharmacokinetic Conclusions",
+    "section_key": "11.6",
+    "name": "Pharmacokinetic Conclusions",
+    "parent_key": "11",
+    "depth": 2,
+    "order": 6
+  },
+  {
+    "section_id": "12",
+    "section_title": "SAFETY EVALUATION",
+    "section_key": "12",
+    "name": "SAFETY EVALUATION",
+    "parent_key": null,
+    "depth": 1,
+    "order": 12
+  },
+  {
+    "section_id": "12.1",
+    "section_title": "Extent of Exposure",
+    "section_key": "12.1",
+    "name": "Extent of Exposure",
+    "parent_key": "12",
+    "depth": 2,
+    "order": 1
+  },
+  {
+    "section_id": "12.2",
+    "section_title": "Adverse Events",
+    "section_key": "12.2",
+    "name": "Adverse Events",
+    "parent_key": "12",
+    "depth": 2,
+    "order": 2
+  },
+  {
+    "section_id": "12.2.1",
+    "section_title": "Brief Summary of Adverse Events",
+    "section_key": "12.2.1",
+    "name": "Brief Summary of Adverse Events",
+    "parent_key": "12.2",
+    "depth": 3,
+    "order": 1
+  },
+  {
+    "section_id": "12.2.2",
+    "section_title": "Display of Adverse Events",
+    "section_key": "12.2.2",
+    "name": "Display of Adverse Events",
+    "parent_key": "12.2",
+    "depth": 3,
+    "order": 2
+  },
+  {
+    "section_id": "12.2.2.1",
+    "section_title": "All Adverse Events",
+    "section_key": "12.2.2.1",
+    "name": "All Adverse Events",
+    "parent_key": "12.2.2",
+    "depth": 4,
+    "order": 1
+  },
+  {
+    "section_id": "12.2.2.2",
+    "section_title": "Adverse Drug Reactions",
+    "section_key": "12.2.2.2",
+    "name": "Adverse Drug Reactions",
+    "parent_key": "12.2.2",
+    "depth": 4,
+    "order": 2
+  },
+  {
+    "section_id": "12.2.3",
+    "section_title": "Analysis of Adverse Events",
+    "section_key": "12.2.3",
+    "name": "Analysis of Adverse Events",
+    "parent_key": "12.2",
+    "depth": 3,
+    "order": 3
+  },
+  {
+    "section_id": "12.2.4",
+    "section_title": "Listing of Adverse Events by Subject",
+    "section_key": "12.2.4",
+    "name": "Listing of Adverse Events by Subject",
+    "parent_key": "12.2",
+    "depth": 3,
+    "order": 4
+  },
+  {
+    "section_id": "12.3",
+    "section_title": "Deaths, Other Serious Adverse Events, and Other Significant Adverse Events",
+    "section_key": "12.3",
+    "name": "Deaths, Other Serious Adverse Events, and Other Significant Adverse Events",
+    "parent_key": "12",
+    "depth": 2,
+    "order": 3
+  },
+  {
+    "section_id": "12.3.1",
+    "section_title": "Listing of Deaths, Other Serious Adverse Events, and Other Significant Adverse Events",
+    "section_key": "12.3.1",
+    "name": "Listing of Deaths, Other Serious Adverse Events, and Other Significant Adverse Events",
+    "parent_key": "12.3",
+    "depth": 3,
+    "order": 1
+  },
+  {
+    "section_id": "12.3.1.1",
+    "section_title": "Deaths",
+    "section_key": "12.3.1.1",
+    "name": "Deaths",
+    "parent_key": "12.3.1",
+    "depth": 4,
+    "order": 1
+  },
+  {
+    "section_id": "12.3.1.2",
+    "section_title": "Other Serious Adverse Events",
+    "section_key": "12.3.1.2",
+    "name": "Other Serious Adverse Events",
+    "parent_key": "12.3.1",
+    "depth": 4,
+    "order": 2
+  },
+  {
+    "section_id": "12.3.1.3",
+    "section_title": "Other Significant Adverse Events",
+    "section_key": "12.3.1.3",
+    "name": "Other Significant Adverse Events",
+    "parent_key": "12.3.1",
+    "depth": 4,
+    "order": 3
+  },
+  {
+    "section_id": "12.3.2",
+    "section_title": "Narratives of Deaths, Other Serious Adverse Events, and Other Significant Adverse Events",
+    "section_key": "12.3.2",
+    "name": "Narratives of Deaths, Other Serious Adverse Events, and Other Significant Adverse Events",
+    "parent_key": "12.3",
+    "depth": 3,
+    "order": 2
+  },
+  {
+    "section_id": "12.3.3",
+    "section_title": "Analysis and Discussion of Deaths, Serious Adverse Events and Other Significant Events",
+    "section_key": "12.3.3",
+    "name": "Analysis and Discussion of Deaths, Serious Adverse Events and Other Significant Events",
+    "parent_key": "12.3",
+    "depth": 3,
+    "order": 3
+  },
+  {
+    "section_id": "12.4",
+    "section_title": "Clinical Laboratory Evaluation",
+    "section_key": "12.4",
+    "name": "Clinical Laboratory Evaluation",
+    "parent_key": "12",
+    "depth": 2,
+    "order": 4
+  },
+  {
+    "section_id": "12.4.1",
+    "section_title": "Listing of Individual Laboratory Measurements by Subject and Each Abnormal Laboratory Value",
+    "section_key": "12.4.1",
+    "name": "Listing of Individual Laboratory Measurements by Subject and Each Abnormal Laboratory Value",
+    "parent_key": "12.4",
+    "depth": 3,
+    "order": 1
+  },
+  {
+    "section_id": "12.4.2",
+    "section_title": "Evaluation of Each Laboratory Parameter",
+    "section_key": "12.4.2",
+    "name": "Evaluation of Each Laboratory Parameter",
+    "parent_key": "12.4",
+    "depth": 3,
+    "order": 2
+  },
+  {
+    "section_id": "12.4.2.1",
+    "section_title": "Laboratory Values Over Time",
+    "section_key": "12.4.2.1",
+    "name": "Laboratory Values Over Time",
+    "parent_key": "12.4.2",
+    "depth": 4,
+    "order": 1
+  },
+  {
+    "section_id": "12.4.2.2",
+    "section_title": "Individual Subject Changes",
+    "section_key": "12.4.2.2",
+    "name": "Individual Subject Changes",
+    "parent_key": "12.4.2",
+    "depth": 4,
+    "order": 2
+  },
+  {
+    "section_id": "12.4.2.3",
+    "section_title": "Individual Clinically Significant Abnormalities",
+    "section_key": "12.4.2.3",
+    "name": "Individual Clinically Significant Abnormalities",
+    "parent_key": "12.4.2",
+    "depth": 4,
+    "order": 3
+  },
+  {
+    "section_id": "12.5",
+    "section_title": "Vital Signs, Physical Findings and Other Observations Related to Safety",
+    "section_key": "12.5",
+    "name": "Vital Signs, Physical Findings and Other Observations Related to Safety",
+    "parent_key": "12",
+    "depth": 2,
+    "order": 5
+  },
+  {
+    "section_id": "12.5.1",
+    "section_title": "Vital Signs",
+    "section_key": "12.5.1",
+    "name": "Vital Signs",
+    "parent_key": "12.5",
+    "depth": 3,
+    "order": 1
+  },
+  {
+    "section_id": "12.5.2",
+    "section_title": "Electrocardiogram",
+    "section_key": "12.5.2",
+    "name": "Electrocardiogram",
+    "parent_key": "12.5",
+    "depth": 3,
+    "order": 2
+  },
+  {
+    "section_id": "12.5.3",
+    "section_title": "Physical Examination",
+    "section_key": "12.5.3",
+    "name": "Physical Examination",
+    "parent_key": "12.5",
+    "depth": 3,
+    "order": 3
+  },
+  {
+    "section_id": "12.5.4",
+    "section_title": "Overdose",
+    "section_key": "12.5.4",
+    "name": "Overdose",
+    "parent_key": "12.5",
+    "depth": 3,
+    "order": 4
+  },
+  {
+    "section_id": "12.5.5",
+    "section_title": "Pregnancy Exposure",
+    "section_key": "12.5.5",
+    "name": "Pregnancy Exposure",
+    "parent_key": "12.5",
+    "depth": 3,
+    "order": 5
+  },
+  {
+    "section_id": "12.5.6",
+    "section_title": "Medication Errors",
+    "section_key": "12.5.6",
+    "name": "Medication Errors",
+    "parent_key": "12.5",
+    "depth": 3,
+    "order": 6
+  },
+  {
+    "section_id": "12.6",
+    "section_title": "Safety Conclusions",
+    "section_key": "12.6",
+    "name": "Safety Conclusions",
+    "parent_key": "12",
+    "depth": 2,
+    "order": 6
+  },
+  {
+    "section_id": "13",
+    "section_title": "DISCUSSION AND OVERALL CONCLUSIONS",
+    "section_key": "13",
+    "name": "DISCUSSION AND OVERALL CONCLUSIONS",
+    "parent_key": null,
+    "depth": 1,
+    "order": 13
+  },
+  {
+    "section_id": "13.1",
+    "section_title": "Discussion",
+    "section_key": "13.1",
+    "name": "Discussion",
+    "parent_key": "13",
+    "depth": 2,
+    "order": 1
+  },
+  {
+    "section_id": "13.2",
+    "section_title": "Conclusions",
+    "section_key": "13.2",
+    "name": "Conclusions",
+    "parent_key": "13",
+    "depth": 2,
+    "order": 2
+  }
+]
