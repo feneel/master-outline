@@ -15,6 +15,7 @@ Full-stack Table of Contents editor with:
 - Python 3.10+
 - Node.js 18+ and npm
 - PostgreSQL
+- React 19.2.4
 
 
 Backend runs at `http://127.0.0.1:8000`.
