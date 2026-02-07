@@ -28,6 +28,8 @@ class RenamePayload(BaseModel):
 class CreatePayload(BaseModel):
     name: str
     parent_id: Optional[UUID] = None
+    anchor_section_id: Optional[UUID] = None
+    anchor_position: str = "after"  # before | after
 
     @field_validator("name")
     @classmethod
@@ -35,6 +37,13 @@ class CreatePayload(BaseModel):
         value = value.strip()
         if not value:
             raise ValueError("name must not be empty")
+        return value
+
+    @field_validator("anchor_position")
+    @classmethod
+    def validate_anchor_position(cls, value: str) -> str:
+        if value not in {"before", "after"}:
+            raise ValueError("anchor_position must be 'before' or 'after'")
         return value
 
 class MovePayload(BaseModel):

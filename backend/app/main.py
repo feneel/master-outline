@@ -344,12 +344,45 @@ def create_section(payload: CreatePayload):
             if not cur.fetchone():
                 raise HTTPException(status_code=404, detail="Parent section not found")
 
-        cur.execute("""
-            SELECT COALESCE(MAX("order"), 0) + 1 AS next_order
-            FROM document_section
-            WHERE parent_id IS NOT DISTINCT FROM %s
-        """, (payload.parent_id,))
-        next_order = cur.fetchone()["next_order"]
+        next_order: int
+        if payload.anchor_section_id:
+            cur.execute(
+                """
+                SELECT id, parent_id, "order"
+                FROM document_section
+                WHERE id = %s
+                """,
+                (payload.anchor_section_id,),
+            )
+            anchor = cur.fetchone()
+            if not anchor:
+                raise HTTPException(status_code=404, detail="Anchor section not found")
+            if anchor["parent_id"] != payload.parent_id:
+                raise HTTPException(
+                    status_code=400,
+                    detail="Anchor must belong to the same parent as the new section.",
+                )
+
+            next_order = anchor["order"] + (1 if payload.anchor_position == "after" else 0)
+            cur.execute(
+                """
+                UPDATE document_section
+                SET "order" = "order" + 1, updated_at = NOW()
+                WHERE parent_id IS NOT DISTINCT FROM %s
+                  AND "order" >= %s
+                """,
+                (payload.parent_id, next_order),
+            )
+        else:
+            cur.execute(
+                """
+                SELECT COALESCE(MAX("order"), 0) + 1 AS next_order
+                FROM document_section
+                WHERE parent_id IS NOT DISTINCT FROM %s
+                """,
+                (payload.parent_id,),
+            )
+            next_order = cur.fetchone()["next_order"]
 
         # temp unique key; replace with your key-generation logic later
         cur.execute("""
@@ -485,18 +518,21 @@ def move_section(payload: MovePayload) -> BasicResponse:
                 raise HTTPException(status_code=404, detail="Target section not found")
 
             new_parent = target["parent_id"]
-            new_order = target["order"] if payload.position == "before" else target["order"] + 1
+            target_order = target["order"]
+            if new_parent == old_parent and old_order < target_order:
+                target_order -= 1
+            new_order = target_order if payload.position == "before" else target_order + 1
         else:
             new_parent = payload.new_parent_id
             new_order = payload.new_order
 
-        if new_order is None or new_order < 1:
-            raise HTTPException(status_code=400, detail="new_order must be >= 1")
+        if new_order is None:
+            raise HTTPException(status_code=400, detail="new_order is required")
 
-        if new_parent and new_parent != old_parent and not payload.allow_reparent:
+        if new_parent != old_parent:
             raise HTTPException(
                 status_code=400,
-                detail="Cross-parent move blocked. Set allow_reparent=true only for explicit nesting.",
+                detail="Cross-parent moves are not allowed. You can only reorder within the same parent.",
             )
 
         if new_parent:
@@ -521,42 +557,64 @@ def move_section(payload: MovePayload) -> BasicResponse:
 
         cur.execute(
             """
-            SELECT COALESCE(MAX("order"), 0) + 1 AS max_next
+            SELECT id
             FROM document_section
             WHERE parent_id IS NOT DISTINCT FROM %s
               AND id <> %s
+            ORDER BY "order", id
             """,
             (new_parent, payload.section_id),
         )
-        max_next = cur.fetchone()["max_next"]
+        target_siblings = [r["id"] for r in cur.fetchall()]
+        max_next = len(target_siblings) + 1
+        if new_order < 1:
+            new_order = 1
         if new_order > max_next:
-            raise HTTPException(
-                status_code=400,
-                detail=f"new_order out of range for target parent (max allowed: {max_next})",
-            )
+            new_order = max_next
 
-        # close old gap
-        cur.execute("""
+        cur.execute(
+            """
             UPDATE document_section
-            SET "order" = "order" - 1
-            WHERE parent_id IS NOT DISTINCT FROM %s
-              AND "order" > %s
-        """, (old_parent, old_order))
-
-        # open new slot
-        cur.execute("""
-            UPDATE document_section
-            SET "order" = "order" + 1
-            WHERE parent_id IS NOT DISTINCT FROM %s
-              AND "order" >= %s
-        """, (new_parent, new_order))
-
-        # move item
-        cur.execute("""
-            UPDATE document_section
-            SET parent_id = %s, "order" = %s, updated_at = NOW()
+            SET parent_id = %s, "order" = -999999, updated_at = NOW()
             WHERE id = %s
-        """, (new_parent, new_order, payload.section_id))
+            """,
+            (new_parent, payload.section_id),
+        )
+
+        if old_parent != new_parent:
+            cur.execute(
+                """
+                SELECT id
+                FROM document_section
+                WHERE parent_id IS NOT DISTINCT FROM %s
+                ORDER BY "order", id
+                """,
+                (old_parent,),
+            )
+            old_ids = [r["id"] for r in cur.fetchall()]
+            for idx, sid in enumerate(old_ids, start=1):
+                cur.execute(
+                    'UPDATE document_section SET "order" = %s WHERE id = %s',
+                    (-idx, sid),
+                )
+            for idx, sid in enumerate(old_ids, start=1):
+                cur.execute(
+                    'UPDATE document_section SET "order" = %s WHERE id = %s',
+                    (idx, sid),
+                )
+
+        target_ordered = target_siblings[:]
+        target_ordered.insert(new_order - 1, payload.section_id)
+        for idx, sid in enumerate(target_ordered, start=1):
+            cur.execute(
+                'UPDATE document_section SET "order" = %s WHERE id = %s',
+                (-idx, sid),
+            )
+        for idx, sid in enumerate(target_ordered, start=1):
+            cur.execute(
+                'UPDATE document_section SET "order" = %s WHERE id = %s',
+                (idx, sid),
+            )
 
         # recompute leafs for affected parents
         for pid in [old_parent, new_parent]:
